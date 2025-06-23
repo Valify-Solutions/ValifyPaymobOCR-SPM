@@ -15,8 +15,8 @@ let package = Package(
     targets: [
       .binaryTarget(
         name:    "ValifyPaymobOCR",
-        url:     "",
-        checksum:""
+        url: "https://valify-public-sdks.s3.eu-central-1.amazonaws.com/ValifyPaymobOCR.1.2.7.zip",
+        checksum: "5046d122ad4c1d03e62c46235c33b37c10df4f18303b1b11dcae51e494105985"
       ),
     ]
 )
